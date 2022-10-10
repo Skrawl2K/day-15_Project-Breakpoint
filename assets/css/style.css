@@ -40,16 +40,6 @@
     font-family: rockSalt;
 }
 
-.headLine {
-    display: flex;
-    background-color: rgb(199, 103, 103);
-    color: #ffffff;
-    justify-content: center;
-    height: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    font-size: 3rem;
-}
 
 .dog1 {
     background-image: url("../img/dog_catching_snack.jpg");
@@ -86,6 +76,18 @@ header img {
 /* ===================== MAIN ==================== */
 
 /* CLASSES */
+
+.headLine {
+    display: flex;
+    background-color: rgb(199, 103, 103);
+    color: #ffffff;
+    justify-content: center;
+    height: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+
 
 .listNum {
     text-align: center;
@@ -171,23 +173,23 @@ header img {
     flex-wrap: wrap;
 }
 
-.social1{
+.social1 {
     display: flex;
     align-content: space-around;
     padding: 0 3rem;
 
 }
 
-.social1a{
+.social1a {
     width: 3.5rem;
 
 }
 
-.social1a-1{
+.social1a-1 {
     margin-left: 1.5rem;
 }
 
-.copyR{
+.copyR {
 
     padding-top: 2rem;
     padding-left: 10rem;
@@ -216,8 +218,229 @@ footer form {
 
 /* BREAKPOINTS */
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+    /* ===================== HEADER ==================== */
+
+    .chomp {
+        margin-left: 3 rem;
+        font-family: rockSalt;
+        font-size: 1.8rem;
+        padding-top: 2.5rem;
+    }
+
+    .motto {
+        font-size: 2rem;
+    }
+
+    .dog1 {
+        background-image: url("../img/dog_catching_snack.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -15rem;
+        height: 85rem;
+    }
+
+
+
+    /* ===================== MAIN ==================== */
+
+    .headLine {
+        padding-bottom: 6rem;
+    }
+
+    .headLine-a {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .listNum {
+        text-align: left;
+        padding-left: 9rem;
+        font-size: 6rem;
+        font-weight: 800;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listText {
+        font-size: 2.5rem;
+        /* margin-top: -6rem; */
+    }
+
+    .bowl1 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 22rem;
+        margin-top: 3rem;
+        margin-right: 6rem;
+    }
+
+
+
+    /* .dog2 {
+        background-image: url("../img/dog_eating_cookies.jpg");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: left;
+        
+        height: 95rem;
+        margin-left: -45rem;
+        margin-right: -25rem;
+        background-position-y: -20rem;
+
+    } */
+
+    /* .alignL {
+        width: 10rem;
+        text-align: right;
+        margin-right: -5rem;
+    }
+
+    .al2 {
+        margin-right: -5rem;
+    } */
+
+    .alignC {
+        text-align: center;
+        font-size: 2.2rem;
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+
+    }
+
+    .signUp1 {
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .signG {
+        border-radius: 50px;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        height: 7.5rem;
+    }
+
+    .signE {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .signB {
+        margin-top: 1rem;
+        background-color: rgb(199, 103, 103);
+        color: #ffffff;
+        font-size: 2rem;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        padding-top: 5rem;
+        flex-wrap: wrap;
+    }
+
+    .social1 {
+        display: flex;
+        align-content: space-around;
+        padding: 0 3rem;
+
+    }
+
+    .social1a {
+        width: 5rem;
+
+    }
+
+    .social1a-1 {
+        margin-left: 1.5rem;
+    }
+
+    .copyR {
+
+        padding-top: 8rem;
+        padding-left: 5rem;
+        margin-left: 12rem;
+        font-size: 2.5rem;
+    }
+}
 
 @media only screen and (min-width: 992px) {}
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    /* ===================== HEADER ==================== */
+
+    body {
+
+
+
+
+        */
+    }
+
+    header {
+        background-color: rgb(199, 103, 103);
+    }
+
+    .chomp {
+
+        font-family: rockSalt;
+        font-size: 1.8rem;
+        -bottom: -5rem;
+
+    }
+
+    .motto {
+        font-size: 4.5rem;
+        text-align: right;
+        width: 20rem;
+        margin-left: 40rem;
+        color: #ffffff;
+    }
+
+    .dog1 {
+        background-image: url("../img/dog_catching_snack.jpg");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-y: -9rem;
+        height: 65rem;
+    }
+
+    /* ===================== MAIN ==================== */
+
+    .headLine {
+        padding-bottom: 6rem;
+        background-color: #ffffff;
+        color: rgb(199, 103, 103);
+    }
+
+    .headLine-a {
+        font-size: 6rem;
+        padding-top: 1rem;
+        font-family: nunitoBold;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .listNum {
+        
+    }
+
+
+    .listText {
+        padding-top: 10rem;
+    }
+}

@@ -15,6 +15,12 @@
     src: url("../fonts/Nunito-Medium.ttf");
 }
 
+
+@font-face {
+    font-family: nunitoBold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,36 +28,10 @@
     font-size: 10px;
 }
 
-/* BREAKPOINTS */
-
 /* @media only screen and (min-width: 576px) */
 
-header {
-    display: flex;
-    flex-direction: column;
-}
 
-header h1 {
-    text-align: center;
-}
-
-.dog1 {
-    background-image: url("../img/dog_catching_snack.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 50rem;
-
-}
-
-header p {
-    text-align: right;
-    font-family: nunitoMedium;
-    color: rgb(199, 103, 103);
-}
-
-header img {
-    width: 100%;
-}
+/* ===================== HEADER ==================== */
 
 /* CLASSES */
 
@@ -66,11 +46,175 @@ header img {
     color: #ffffff;
     justify-content: center;
     height: 3rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     font-size: 3rem;
 }
 
+.dog1 {
+    background-image: url("../img/dog_catching_snack.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50rem;
+    margin-bottom: -2rem;
+}
 
+/* STYLES */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: right;
+    font-family: nunitoBold;
+    color: rgb(199, 103, 103);
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+header img {
+    width: 100%;
+}
+
+
+/* ===================== MAIN ==================== */
+
+/* CLASSES */
+
+.listNum {
+    text-align: center;
+    color: rgb(199, 103, 103);
+    font-size: 3rem;
+    font-family: nunitoBold;
+}
+
+.listText {
+    text-align: center;
+    font-family: nunitoMedium;
+    font-size: 1.2rem;
+}
+
+.bowl1 {
+    background-image: url("../img/dog_bowl.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 14rem;
+    margin-top: 3rem;
+}
+
+.alignL {
+    text-align: left;
+    padding-bottom: 4rem;
+    padding-left: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.aL1 {
+    padding-top: -1rem;
+
+}
+
+.al2 {
+    padding-left: 5.5rem;
+}
+
+.alignR {
+    text-align: right;
+    padding-bottom: 4rem;
+    padding-right: 4.5rem;
+    font-family: nunitoMedium;
+    font-size: 1.5rem;
+}
+
+.alignC {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: nunitoLight;
+    font-size: 1.2rem;
+}
+
+/* STYLES */
+
+/* ===================== FOOTER ==================== */
+
+/* CLASSES */
+
+.signG {
+    border-radius: 25px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 4rem;
+}
+
+.signE {
+    text-align: center;
+}
+
+.signB {
+    margin-top: 1rem;
+    background-color: rgb(199, 103, 103);
+    color: #ffffff;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.social1{
+    display: flex;
+    align-content: space-around;
+    padding: 0 3rem;
+
+}
+
+.social1a{
+    width: 3.5rem;
+
+}
+
+.social1a-1{
+    margin-left: 1.5rem;
+}
+
+.copyR{
+
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+/* STYLES */
+
+footer {
+    margin-top: 10rem;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 5rem;
+    color: #ffffff;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* BREAKPOINTS */
 
 @media only screen and (min-width: 768px) {}
 

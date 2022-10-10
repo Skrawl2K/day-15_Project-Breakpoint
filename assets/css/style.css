@@ -1,0 +1,79 @@
+/* GENERELL STYLE */
+
+@font-face {
+    font-family: rockSalt;
+    src: url("../fonts/RockSalt-Regular.ttf");
+}
+
+@font-face {
+    font-family: nunitoLight;
+    src: url("../fonts/Nunito-Light.ttf");
+}
+
+@font-face {
+    font-family: nunitoMedium;
+    src: url("../fonts/Nunito-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+/* BREAKPOINTS */
+
+/* @media only screen and (min-width: 576px) */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.dog1 {
+    background-image: url("../img/dog_catching_snack.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50rem;
+
+}
+
+header p {
+    text-align: right;
+    font-family: nunitoMedium;
+    color: rgb(199, 103, 103);
+}
+
+header img {
+    width: 100%;
+}
+
+/* CLASSES */
+
+.chomp {
+    margin-left: 3 rem;
+    font-family: rockSalt;
+}
+
+.headLine {
+    display: flex;
+    background-color: rgb(199, 103, 103);
+    color: #ffffff;
+    justify-content: center;
+    height: 3rem;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}

@@ -419,7 +419,7 @@ footer form {
     /* ===================== MAIN ==================== */
 
     .headLine {
-        padding-bottom: 6rem;
+        padding-bottom: 12rem;
         background-color: #ffffff;
         color: rgb(199, 103, 103);
     }
@@ -436,11 +436,19 @@ footer form {
     }
 
     .listNum {
-        
+        margin-left: 16rem;
     }
 
 
     .listText {
         padding-top: 10rem;
+        margin-left: -15rem;
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+    }
+
+    .text3{
+        margin-right: 5rem;
     }
 }
